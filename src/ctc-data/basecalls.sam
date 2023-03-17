@@ -1,0 +1,5 @@
+@HD	VN:1.5	SO:unknown	ob:0.0.1
+@PG	ID:basecaller	PN:bonito	VN:0.5.0	CL:bonito basecaller ../bonito/models/TINYX011/ --save-ctc --reference ../Klebsiella_pneumoniae_KSB1_7F/training_fast5s/strands_0000.txt ../Klebsiella_pneumoniae_KSB1_7F/training_fast5s/0000/ --batchsize 3200 --modeltype tinynoskipx011
+@PG	ID:aligner	PN:minimap2	VN:2.23	DS:mappy
+@RG	ID:735fa03e9634e9d33e5d58a0538f1d451e0a2198_../bonito/models/TINYX011/	PL:ONT	PU:2002036049	PM:MN19067	LB:flow cell 022 Klebs 358 170 065 177 7F 014	SM:flow cell 022 Klebs 358 170 065 177 7F 014	DS:run_id=735fa03e9634e9d33e5d58a0538f1d451e0a2198 basecall_model=../bonito/models/TINYX011/
+@RG	ID:182961873a53db9a879f2014fd609fb97493f810_../bonito/models/TINYX011/	PL:ONT	PU:2002036049	PM:MN19067	LB:flow cell 022 Klebs 358 170 065 177 7F 014	SM:flow cell 022 Klebs 358 170 065 177 7F 014	DS:run_id=182961873a53db9a879f2014fd609fb97493f810 basecall_model=../bonito/models/TINYX011/
